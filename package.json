@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
-  "author": "",
+  "author": "Parikshit Jaiswal",
   "license": "ISC",
   "description": "",
   "dependencies": {
