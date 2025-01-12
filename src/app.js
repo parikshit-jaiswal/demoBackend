@@ -2,6 +2,7 @@ import express, { urlencoded } from 'express'
 import cors from 'cors'
 import cokkieParser from 'cookie-parser'
 import testRouter from './routes/test.routes.js'
+import userRouter from './routes/user.routes.js'
 const app = express()
 
 app.use(cors({
@@ -16,6 +17,7 @@ app.use(cokkieParser());
 
 
 app.use('/api/v1', testRouter);
+app.use('/api/v1/users', userRouter);
 
 
 
