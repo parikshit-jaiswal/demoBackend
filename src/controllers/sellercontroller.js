@@ -1,5 +1,5 @@
 
-const Product = require("../models/seller");
+import Product from "../models/seller.js";
 
 exports.addproducts = async (req, res) => {
   try {
@@ -23,4 +23,4 @@ exports.getproducts = async (req, res) => {
 };
 
 
-
+export default { addproducts, getproducts };
